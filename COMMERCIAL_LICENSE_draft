@@ -1,43 +1,38 @@
-AIdea Commercial License Draft
+AIdea Commercial License Agreement
+
+This Commercial License Agreement ("Agreement") is entered into by and between [Your Company/Your Name] ("Licensor") and the entity or individual agreeing to these terms ("Licensee").
 
 1. License Grant
+The Licensor hereby grants to the Licensee a non-exclusive, non-transferable, limited right to use the AIdea web application ("Software") for commercial purposes, subject to the terms of this Agreement. Sublicensing is prohibited, except as expressly agreed upon through license negotiation.
 
-This Commercial License Agreement ("Agreement") is made between [Your Company/Your Name] ("Licensor") and the licensee ("Licensee") who wishes to use the AIdea web application ("Software") in a commercial capacity.
-
-Subject to the terms of this Agreement, Licensor grants Licensee a non-exclusive, non-transferable, limited license to use the Software for the purpose of hosting their own web application, either 'as-is' or with modifications, or including the licensed code within a larger project or web application, for commercial purposes.
-
-2. Term
-
-This Agreement is valid for one (1) year from the date of agreement ("Effective Date") and is subject to annual renewal upon mutual agreement.
+2. Term and Renewal
+This Agreement shall commence on the Effective Date and remain in force for a period of one (1) year. It shall automatically renew annually on similar terms unless the Licensee opts for modifications, subject to renegotiation and adherence to any new pricing structures established. The Licensor reserves the right to terminate this Agreement for any breach of its terms, with the option to waive such breach at its discretion. The Licensor shall provide the Licensee with a 90-day written notice of any pricing changes. Feedback from commercial licensees is encouraged to help establish a reasonable pricing structure.
 
 3. Support and Updates
-
-Licensee will receive support at no additional cost, with the understanding that support is provided as-is and without guarantees. Issues filed by commercial license holders will be prioritized. The Licensor does not commit to a regular schedule for updates at this time.
+The Licensee will receive prioritized support on GitHub issues, notifications of bug fixes, updates, or patches, and access to other support channels as established and published by the Licensor. However, such support is offered 'as-is' and is not guaranteed.
 
 4. Use Cases
+Licensee is permitted to host the Software for commercial purposes and modify it as part of a larger commercial project. Modifications to the core functionality of the Software require prior approval through negotiation. Significant changes, as determined by the Licensor, may affect the Licensee’s eligibility for "powered by AIdea" branding discounts.
 
-The Licensee is permitted to:
-
-Host the web application for commercial purposes.
-Modify the Software and use it as part of a larger commercial project.
-Remove AIdea branding and replace it with their own. An option to display "powered by AIdea" branding for a discount on licensing fees is available upon negotiation.
 5. Pricing Structure
-
-Pricing for the use of the Software under this Agreement is subject to negotiation between Licensor and Licensee until an official pricing structure is established and published.
+The official pricing structure will be established upon the Software reaching version 1.0. Until then, commercial licensing of pre-1.0 versions is subject to negotiation. The Licensor welcomes input from potential licensees on developing a future pricing structure.
 
 6. Prohibitions
+The Licensee is expressly prohibited from creating derivative works that compete with the original Software and from reselling the Software or its components. However, reverse engineering is not prohibited.
 
-The Licensee is expressly prohibited from:
-
-Reselling the Software or any of its components.
-Any use of the Software not explicitly permitted in the agreed use cases, unless expressly granted in a separate agreement.
 7. Disclaimer of Warranty and Limitation of Liability
-
-The Software is provided "as is", without warranty of any kind, express or implied. The Licensor does not warrant that the Software will meet the Licensee’s requirements or that its operation will be uninterrupted or error-free. The entire risk as to the quality and performance of the Software lies with the Licensee.
-
-Under no circumstances and under no legal theory, whether tort, contract, or otherwise, shall the Licensor be liable to the Licensee or any other person for any indirect, special, incidental, or consequential damages of any character including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses.
+The Software is provided "as is", without warranty of any kind. The Licensor shall not be liable for any indirect, special, incidental, or consequential damages of any character. Liability under this Agreement is limited to the amount paid by the Licensee.
 
 8. Integration with Open-Source License
+[This section to be discussed with legal counsel regarding open-source integration.]
 
-This Commercial License is provided in conjunction with the Software's open-source license under GNU Affero General Public License v3.0 (AGPLv3). Use of the Software under this Commercial License does not subject the Licensee to the terms of the AGPLv3.
+9. Termination
+The Licensor may terminate this Agreement with cause, or refuse renewal without cause, provided a 90-day notice is given. The Licensee may terminate this Agreement with a 30-day written notice and shall be entitled to a 50% refund of the prorated license fee for the remaining term. Upon termination, the Licensee must cease using the Software by 6 AM UTC the following day.
 
+10. Audit Rights
+The Licensor reserves the right to audit the Licensee's use of the Software to ensure compliance with this Agreement.
+
+11. Jurisdiction and Dispute Resolution
+[To be determined in consultation with legal counsel.]
+
+This Agreement constitutes the entire agreement between the parties regarding the subject matter hereof and supersedes all prior or contemporaneous understandings and agreements, whether written or oral, regarding such subject matter.
