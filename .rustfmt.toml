@@ -1,0 +1,3 @@
+# Sample .rustfmt.toml
+max_width = 100
+hard_tabs = false
