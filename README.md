@@ -15,11 +15,19 @@ AIdea aims to provide an intuitive platform for users to generate diverse conten
 
 ## License
 
-AIdea is dual-licensed:
+AIdea is dual-licensed, offering flexibility and catering to a wide range of use cases:
 
-- For open-source and non-commercial use, AIdea is available under the **GNU Affero General Public License v3.0 (AGPLv3)**. This means you can use, modify, and distribute the project freely as long as your version is also open-source under the AGPLv3.
+1. **Open-Source and Non-Commercial Use**: For open-source enthusiasts and non-commercial purposes, AIdea is available under the GNU Affero General Public License v3.0 (AGPLv3). This allows you to use, modify, and distribute the project freely, provided any derivative works are also open-source under AGPLv3.
 
-- For commercial use, a separate **Commercial License** is available. The Commercial License is ideal for businesses and individuals who wish to utilize AIdea in commercial products or services without the open-source requirements of the AGPLv3.
+2. **Commercial Use**: For businesses and individuals seeking to use AIdea in commercial products or services, a separate Commercial License is available. This license is ideal if you wish to integrate AIdea into your commercial offerings without the open-source obligations of AGPLv3.
+
+### Understanding the Licensing Structure
+
+- The main `LICENSE` (AGPLv3) and `COMMERCIAL_LICENSE` files are located in the root directory. 
+- Some components are exclusively licensed under one of these licenses. These components are listed in `LICENSE_DETAILS.md` in the root directory.
+- Specific source files and directories may include a license header or a small addendum file indicating the license applicable to that component.
+
+This dual-license approach is designed to accommodate various needs, from open-source collaboration to commercial integration. If you have any questions or wish to discuss the commercial licensing terms, please contact [Your Contact Information].
 
 ## Getting Started
 
@@ -36,6 +44,22 @@ Detailed instructions on setting up your local environment.
 
 3. **Run the Application**
 Instructions on how to run AIdea locally.
+
+## License
+
+AIdea is dual-licensed, offering flexibility and catering to a wide range of use cases:
+
+1. **Open-Source and Non-Commercial Use**: For open-source enthusiasts and non-commercial purposes, AIdea is available under the GNU Affero General Public License v3.0 (AGPLv3). This allows you to use, modify, and distribute the project freely, provided any derivative works are also open-source under AGPLv3.
+
+2. **Commercial Use**: For businesses and individuals seeking to use AIdea in commercial products or services, a separate Commercial License is available. This license is ideal if you wish to integrate AIdea into your commercial offerings without the open-source obligations of AGPLv3.
+
+### Understanding the Licensing Structure
+
+- The main `LICENSE` (AGPLv3) and `COMMERCIAL_LICENSE` files are located in the root directory. 
+- Some components are exclusively licensed under one of these licenses. These components are listed in `LICENSE_DETAILS.md` in the root directory.
+- Specific source files and directories may include a license header or a small addendum file indicating the license applicable to that component.
+
+This dual-license approach is designed to accommodate various needs, from open-source collaboration to commercial integration. If you have any questions or wish to discuss the commercial licensing terms, please contact [Your Contact Information].
 
 ## Contributing
 
