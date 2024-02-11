@@ -44,6 +44,14 @@ The Licensor may terminate this Agreement with cause, or refuse renewal without 
 The Licensor reserves the right to audit the Licensee's use of the Software to ensure compliance with this Agreement.
 
 11. Jurisdiction and Dispute Resolution
+Jurisdiction
+This Agreement shall be governed by and construed in accordance with the laws of the State of Hawaii, without regard to its conflict of law principles.
+
+Dispute Resolution
+In the event of any dispute arising out of or in connection with this Agreement, the parties shall first seek to resolve the dispute through good faith negotiation. If the dispute cannot be resolved by negotiation within thirty (30) days, the parties agree to submit the dispute to mediation in Honolulu, Hawaii. If mediation is unsuccessful, the dispute shall then be resolved by binding arbitration in Honolulu, Hawaii, in accordance with the rules of the American Arbitration Association.
+
+Future Modification
+The parties acknowledge that the Licensor intends to establish a legal entity to manage this project in the future. Upon the formation of such an entity, the Licensor reserves the right to modify the terms related to jurisdiction and dispute resolution to reflect the change in legal status.
 [To be determined in consultation with legal counsel.]
 
 This Agreement constitutes the entire agreement between the parties regarding the subject matter hereof and supersedes all prior or contemporaneous understandings and agreements, whether written or oral, regarding such subject matter.
