@@ -24,7 +24,18 @@ The Licensee is expressly prohibited from creating derivative works that compete
 The Software is provided "as is", without warranty of any kind. The Licensor shall not be liable for any indirect, special, incidental, or consequential damages of any character. Liability under this Agreement is limited to the amount paid by the Licensee.
 
 8. Integration with Open-Source License
-[This section to be discussed with legal counsel regarding open-source integration.]
+
+a. Dual Licensing Structure: AIdea is available under two distinct licensing models: the GNU Affero General Public License v3.0 (AGPLv3) for open-source and non-commercial use, and a separate Commercial License for commercial purposes. The choice of license depends on the user's intended use of the Software.
+
+b. Derivative Works: Derivative works created by the Licensee under the Commercial License are subject to the terms of this Agreement. If the Licensee opts to contribute to the open-source version of AIdea, such contributions will be governed by the AGPLv3 and must be made publicly available under the same license.
+
+c. Separation of Components: Certain components of AIdea may be exclusively available under either the AGPLv3 or the Commercial License. Licensees must adhere to the terms applicable to the components they use.
+
+c. Designation of Components: The AIdea project includes various components, some of which may be exclusively available under the AGPLv3, while others may be exclusively under the Commercial License. The main `LICENSE` (AGPLv3) and `COMMERCIAL_LICENSE` documents are located in the root directory, along with a `LICENSE_SPECIFICITIES.md` document detailing a list of component-specific licensing terms. This document, along with specific `LICENSE` files in relevant directories and brief license headers in source files, provides clear guidance on the licensing terms applicable to each component of AIdea.
+
+d. Transition Between Licenses: Transitioning from the AGPLv3 to the Commercial License requires a separate agreement and may necessitate re-licensing of previously developed derivative works under the terms of the Commercial License. Conversely, transitioning from the Commercial License to AGPLv3 is subject to the disclosure and public availability requirements of the AGPLv3.
+
+e. Compliance: Licensees are required to comply with the terms of the chosen license. The Licensor reserves the right to audit and enforce compliance as per the stipulations of the respective license.
 
 9. Termination
 The Licensor may terminate this Agreement with cause, or refuse renewal without cause, provided a 90-day notice is given. The Licensee may terminate this Agreement with a 30-day written notice and shall be entitled to a 50% refund of the prorated license fee for the remaining term. Upon termination, the Licensee must cease using the Software by 6 AM UTC the following day.
