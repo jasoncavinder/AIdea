@@ -1,0 +1,13 @@
+name: Deploy to DigitalOcean
+on:
+  workflow_call:
+
+jobs:
+  redeploy-on-digitalocean:
+    runs-on: alpine-latest
+    steps:
+      - name: Trigger redeployment on DigitalOcean
+        run: |
+          curl -X POST "https://api.digitalocean.com/v2/apps/${{ secrets.DO_APP_ID }}/deployments" \
+          -H "Authorization: Bearer ${{ secrets.DO_TOKEN }}" \
+          -H "Content-Type: application/json"

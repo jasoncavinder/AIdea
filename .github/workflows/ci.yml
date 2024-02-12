@@ -34,5 +34,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/jasoncavinder/aidea:latest
-
+        tags: ghcr.io/jasoncavinder/aidea:ubuntu-latest
+  call-workflow:
+    uses: ./.github/workflows/cd-do.yml
+    
