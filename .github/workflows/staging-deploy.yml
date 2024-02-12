@@ -1,0 +1,36 @@
+name: Deploy Docker Image to Staging Environment
+
+on:
+  workflow_run:
+    workflows: ["Full Testing"]
+    branches:
+      - staging
+    types:
+      - completed
+
+jobs:
+  build_and_push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GHCR_TOKEN }}
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: ghcr.io/${{ github.repository }}-staging:latest
+  deploy_to_staging:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Staging Redeployment
+        run: |
+          curl -X POST "https://api.digitalocean.com/v2/apps/${{ secrets.DO_STAGING_APP_ID }}/deployments" \
+          -H "Authorization: Bearer ${{ secrets.DO_TOKEN }}" \
+          -H "Content-Type: application/json"
